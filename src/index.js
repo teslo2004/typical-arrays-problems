@@ -1,12 +1,27 @@
 
 exports.min = function min (array) {
-  return 0;
+  array.reduce(function(a,b){
+    if (a<b){
+    return a
+  }
+    else {
+      return b
+    };
+  })
+}
 }
 
 exports.max = function max (array) {
-  return 0;
+  array.reduce(function(a,b){
+    if (a>b){
+    return a
+  }
+    else {
+      return b
+    };
+  })
 }
 
 exports.avg = function avg (array) {
-  return 0;
-}
+
+  }
